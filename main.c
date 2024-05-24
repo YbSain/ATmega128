@@ -13,7 +13,7 @@ int main(void)
 	UBRR0H = 103 >> 8;
 	UBRR0L = 103;
 	UCSR0A = 0x00;
-	UCSR0B = 0x08;
+	UCSR0B = 0x18;
 	UCSR0C = 0x06;
 	
 	rx_data = UDR0;
